@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR1f0006/v1
+canonical_location: https://kanripo.org/bkk/KR1f0006/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 孝經刋誤
+  date: '2015-08-24 22:18:04.708291'
+  source:
+    repository: kanripo
+    path: KR1f0006
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR1f0006_000.yaml, hash: 'sha256:14f1aac12142ad467c26487092f1fb774b778ef39e54233fbfc1605576050369'}
+  - {seq: 1, filename: KR1f0006_001.yaml, hash: 'sha256:6af92c2d568a1269ed87225c00ec2bda485c94c09157cbf9b6b47e793c9f5812'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1f0006_000.markers.yaml, hash: 'sha256:c6cf7bf6ab8078e38bd7b8e3495116dac528a39166e937d294ffda01dd9f05b7'}
+  - {seq: 1, role: markers, filename: assets/KR1f0006_001.markers.yaml, hash: 'sha256:5a381695a49dd25c65778c35b8d5d1010c880212de46d34b76ebf6a1c8c4217c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1f0006_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 650
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1f0006_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 3656
+  label: 孝經刋誤
+  type: section
+  level: 1
+hash: sha256:340e03085a4508296df4851a18716db79972fed84e36c76deb0f694b982eb287
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
