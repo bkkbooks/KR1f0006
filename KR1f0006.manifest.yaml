@@ -23,8 +23,8 @@ assets:
   - {seq: 0, filename: KR1f0006_000.yaml, hash: 'sha256:1af407a41493c0649ab2d4c6dd19acd931b18d1ed8a46712107853be3c083919'}
   - {seq: 1, filename: KR1f0006_001.yaml, hash: 'sha256:edcf4c777bb4e5343f71b6b09bdd9e850a77046cedc589821e740ca0886d2d97'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR1f0006_000.markers.yaml, hash: 'sha256:f7c6b3d937583dc4ec6b723742886a03f32167e5e038c4e4b88ea204a1a76b0e'}
-  - {seq: 1, role: markers, filename: assets/KR1f0006_001.markers.yaml, hash: 'sha256:f95c6347f6a064799c4a47bfe0fe2385da3cd39ba261f32fdd7e5b09632c65a1'}
+  - {seq: 0, role: markers, filename: assets/KR1f0006_000.markers.yaml, hash: 'sha256:d6b1a98c2e5f775a8c8372d291f793bf3636b81c9300e7cecf917874d0c0489d'}
+  - {seq: 1, role: markers, filename: assets/KR1f0006_001.markers.yaml, hash: 'sha256:1921f55a7353cf582bc59129e63b0e31876e2d199fe933b4b3bc304cf4f77b36'}
 table_of_contents:
 - ref:
     seq: 0
@@ -46,7 +46,7 @@ table_of_contents:
   label: 孝經刋誤
   type: section
   level: 1
-hash: sha256:31d206457479c0a295d7b5471d4497227185394933bd88e9f9f57f116f35f369
+hash: sha256:c68dce8413c7bd92bb980c4c28cb72877060cba4c8db9719e4725ab560677174
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
